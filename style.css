@@ -1,0 +1,121 @@
+body{
+    background-color: #E1DED8;
+    text-align: center;
+    margin: 2vw;
+}
+h1{
+    font-family:'Sharpe PERSONAL';
+    font-style: Medium;
+    src: url(“/Users/chloetoledano/Desktop/Sharpe/SharpeMe_PERSONAL.ttf”) format("TrueType Fonts");
+    font-size: 4.6rem;
+    font-weight: 700;
+}
+.homechloe{
+    color: #141415;
+    text-decoration: none;
+    font-family:'Sharpe PERSONAL';
+    font-style: Medium;
+    font-size: 2rem;
+    font-weight: 400;
+    src: url(“/Users/chloetoledano/Desktop/Sharpe/SharpeMe_PERSONAL.ttf”) format("TrueType Fonts");
+}
+h2{
+    font-family:'Sharpe PERSONAL';
+    font-style: Medium;
+    font-size: 2rem;
+    font-weight: 400;
+    src: url(“/Users/chloetoledano/Desktop/Sharpe/SharpeMe_PERSONAL.ttf”) format("TrueType Fonts");
+}
+h3{
+    font-family:'Sharpe PERSONAL';
+    font-style: Medium;
+    font-size: 1rem;
+    font-weight: 400;
+    src: url(“/Users/chloetoledano/Desktop/Sharpe/SharpeMe_PERSONAL.ttf”) format("TrueType Fonts");
+}
+p{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
+    font-size: 25px;
+    font-family: "Avenir Next Condensed";
+    font-style: "Ultra Light";
+    font-weight: 300;
+    color: #141415;
+}
+.contactbutton{
+    font-size: 1.1rem;
+    font-family: "Avenir Next Condensed";
+    font-style: "Ultra Light";
+    font-weight: 500;
+    border-radius: 25px;
+    width: 10em;
+    height: 2.2em;
+    border: 2px solid;
+    border-color: #2a3419;
+    background-color: #E1DED8;
+} 
+:hover.contactbutton{
+    color: #E1DED8;
+    background-color:#2a3419;
+}
+.phome{
+    font-size: 1rem;
+    font-family: "Avenir Next Condensed";
+    font-style: "Ultra Light";
+    font-weight: 300;
+    color: #141415;
+}
+
+.homeimage{
+    width: 450px;
+    border-radius: 50% 50% 0px 0px;
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #E1DED8;
+    color:#2a3419;
+    padding: 12px 20px;
+    border: 2px solid;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #2a3419;
+    color:#E1DED8;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #E1DED8;
+    padding: 20px;
+  }
+  /* images to click to access the entry */
+  .posts{
+    width: 200px;
+  }
+  .goback{
+    font-size: 1.1rem;
+    font-family: "Avenir Next Condensed";
+    font-style: "Ultra Light";
+    font-weight: 500;
+    border-radius: 25px;
+    width: 5em;
+    height: 2.2em;
+    border: 2px solid;
+    border-color: #2a3419;
+    background-color: #E1DED8;
+  }
