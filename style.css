@@ -47,6 +47,7 @@ p{
     font-size: 1.1rem;
     font-family: "Avenir Next Condensed";
     font-style: "Ultra Light";
+    text-decoration: none;
     color: #2a3419;
     font-weight: 500;
     border-radius: 25px;
@@ -69,9 +70,12 @@ p{
 }
 
 .homeimage{
-    width: 450px;
-    border-radius: 50% 50% 0px 0px;
+  width: 450px;
+  border-radius: 50% 50% 0px 0px;
+  display: block;
+  margin: 0 auto;
 }
+
 input[type=text], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */  
@@ -120,3 +124,29 @@ input[type=text], select, textarea {
     border-color: #2a3419;
     background-color: #E1DED8;
   }
+/* vision.html */
+  #photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #photo-gallery a {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #photo-gallery .wide {
+    width: 100%;
+  }
+  #photo-gallery .half {
+    width: 49%;
+  }
+  
+  #photo-gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
