@@ -7,7 +7,7 @@ h1{
     font-family:'Sharpe PERSONAL';
     font-style: Medium;
     src: url(“/Users/chloetoledano/Desktop/Sharpe/SharpeMe_PERSONAL.ttf”) format("TrueType Fonts");
-    font-size: 4.6rem;
+    font-size: 4.3rem;
     font-weight: 700;
 }
 .homechloe{
@@ -32,6 +32,13 @@ h3{
     font-size: 1rem;
     font-weight: 400;
     src: url(“/Users/chloetoledano/Desktop/Sharpe/SharpeMe_PERSONAL.ttf”) format("TrueType Fonts");
+}
+h4{
+  font-family:'Sharpe PERSONAL';
+  font-style: Medium;
+  font-size: 1.5rem;
+  font-weight: 400;
+  src: url(“/Users/chloetoledano/Desktop/Sharpe/SharpeMe_PERSONAL.ttf”) format("TrueType Fonts");
 }
 p{
     margin-left: 100px;
@@ -109,9 +116,21 @@ input[type=text], select, textarea {
     padding: 20px;
   }
   /* images to click to access the entry */
+  .blog-item {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
   .posts{
-    width: 200px;
+    width: 80%;
   }
+  @media (min-width: 768px) {
+    .blog-item {
+        width: 50%;
+        float: left;
+        
+    }
+}
   .goback{
     font-size: 1.1rem;
     font-family: "Avenir Next Condensed";
